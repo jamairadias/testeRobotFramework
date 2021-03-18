@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.9.2 on win32)" generated="20210318 09:57:13.939" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.9.2 on win32)" generated="20210318 12:25:54.383" rpa="false">
 <suite id="s1" name="Login" source="C:\xampp\htdocs\testeRobotFramework\tests\login.robot">
 <test id="s1-t1" name="Login com sucesso">
 <kw name="Open Login Page" library="auth">
@@ -14,9 +14,9 @@ See `Browser, Context and Page` for more information about Browser and related c
 <arg>${browser}</arg>
 <arg>${headless}</arg>
 </arguments>
-<msg timestamp="20210318 09:57:15.260" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0}</msg>
-<msg timestamp="20210318 09:57:16.097" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0}</msg>
-<status status="PASS" starttime="20210318 09:57:15.260" endtime="20210318 09:57:16.098"></status>
+<msg timestamp="20210318 12:25:55.680" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0}</msg>
+<msg timestamp="20210318 12:25:56.292" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0}</msg>
+<status status="PASS" starttime="20210318 12:25:55.680" endtime="20210318 12:25:56.293"></status>
 </kw>
 <kw name="New Page" library="Browser">
 <tags>
@@ -29,10 +29,10 @@ Returns a stable identifier for the created page.</doc>
 <arguments>
 <arg>http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</arg>
 </arguments>
-<msg timestamp="20210318 09:57:21.746" level="INFO">Successfully initialized new page object and opened url: http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</msg>
-<status status="PASS" starttime="20210318 09:57:16.098" endtime="20210318 09:57:21.746"></status>
+<msg timestamp="20210318 12:26:01.406" level="INFO">Successfully initialized new page object and opened url: http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</msg>
+<status status="PASS" starttime="20210318 12:25:56.294" endtime="20210318 12:26:01.406"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:15.260" endtime="20210318 09:57:21.746"></status>
+<status status="PASS" starttime="20210318 12:25:55.680" endtime="20210318 12:26:01.406"></status>
 </kw>
 <kw name="Login With" library="auth">
 <arguments>
@@ -49,8 +49,8 @@ Returns a stable identifier for the created page.</doc>
 <arg>id=email</arg>
 <arg>${email_arg}</arg>
 </arguments>
-<msg timestamp="20210318 09:57:21.748" level="INFO">Fills the text 'teste1@gmail.com' in the given field.</msg>
-<status status="PASS" starttime="20210318 09:57:21.748" endtime="20210318 09:57:21.805"></status>
+<msg timestamp="20210318 12:26:01.409" level="INFO">Fills the text 'teste1@gmail.com' in the given field.</msg>
+<status status="PASS" starttime="20210318 12:26:01.407" endtime="20210318 12:26:01.469"></status>
 </kw>
 <kw name="Fill Text" library="Browser">
 <tags>
@@ -62,8 +62,8 @@ Returns a stable identifier for the created page.</doc>
 <arg>id=passwd</arg>
 <arg>${pass_arg}</arg>
 </arguments>
-<msg timestamp="20210318 09:57:21.806" level="INFO">Fills the text '12345' in the given field.</msg>
-<status status="PASS" starttime="20210318 09:57:21.805" endtime="20210318 09:57:21.840"></status>
+<msg timestamp="20210318 12:26:01.470" level="INFO">Fills the text '12345' in the given field.</msg>
+<status status="PASS" starttime="20210318 12:26:01.470" endtime="20210318 12:26:01.511"></status>
 </kw>
 <kw name="Click" library="Browser">
 <tags>
@@ -74,9 +74,9 @@ Returns a stable identifier for the created page.</doc>
 <arguments>
 <arg>id=SubmitLogin</arg>
 </arguments>
-<status status="PASS" starttime="20210318 09:57:21.840" endtime="20210318 09:57:23.470"></status>
+<status status="PASS" starttime="20210318 12:26:01.511" endtime="20210318 12:26:02.738"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:21.748" endtime="20210318 09:57:23.471"></status>
+<status status="PASS" starttime="20210318 12:26:01.407" endtime="20210318 12:26:02.739"></status>
 </kw>
 <kw name="Logout Link" library="auth">
 <kw name="Wait For Elements State" library="Browser">
@@ -90,20 +90,20 @@ Returns a stable identifier for the created page.</doc>
 <arg>visible</arg>
 <arg>10</arg>
 </arguments>
-<msg timestamp="20210318 09:57:23.807" level="INFO">Wait for Element with selector: css=a[href$=mylogout]</msg>
-<status status="PASS" starttime="20210318 09:57:23.473" endtime="20210318 09:57:23.808"></status>
+<msg timestamp="20210318 12:26:03.026" level="INFO">Wait for Element with selector: css=a[href$=mylogout]</msg>
+<status status="PASS" starttime="20210318 12:26:02.740" endtime="20210318 12:26:03.026"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:23.471" endtime="20210318 09:57:23.808"></status>
+<status status="PASS" starttime="20210318 12:26:02.740" endtime="20210318 12:26:03.026"></status>
 </kw>
 <kw name="Take Screenshot" library="Browser" type="teardown">
 <tags>
 <tag>PageContent</tag>
 </tags>
 <doc>Takes a screenshot of the current window and saves it to ``path``. Saves it as a png.</doc>
-<msg timestamp="20210318 09:57:24.172" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210318 09:57:23.809" endtime="20210318 09:57:24.172"></status>
+<msg timestamp="20210318 12:26:03.407" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210318 12:26:03.027" endtime="20210318 12:26:03.407"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:15.255" endtime="20210318 09:57:24.173" critical="yes"></status>
+<status status="PASS" starttime="20210318 12:25:55.676" endtime="20210318 12:26:03.408" critical="yes"></status>
 </test>
 <test id="s1-t2" name="Senha incorreta">
 <kw name="Open Login Page" library="auth">
@@ -118,9 +118,9 @@ See `Browser, Context and Page` for more information about Browser and related c
 <arg>${browser}</arg>
 <arg>${headless}</arg>
 </arguments>
-<msg timestamp="20210318 09:57:24.292" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0}</msg>
-<msg timestamp="20210318 09:57:24.975" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0}</msg>
-<status status="PASS" starttime="20210318 09:57:24.291" endtime="20210318 09:57:24.976"></status>
+<msg timestamp="20210318 12:26:03.509" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0}</msg>
+<msg timestamp="20210318 12:26:04.130" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0}</msg>
+<status status="PASS" starttime="20210318 12:26:03.508" endtime="20210318 12:26:04.131"></status>
 </kw>
 <kw name="New Page" library="Browser">
 <tags>
@@ -133,10 +133,10 @@ Returns a stable identifier for the created page.</doc>
 <arguments>
 <arg>http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</arg>
 </arguments>
-<msg timestamp="20210318 09:57:31.659" level="INFO">Successfully initialized new page object and opened url: http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</msg>
-<status status="PASS" starttime="20210318 09:57:24.976" endtime="20210318 09:57:31.660"></status>
+<msg timestamp="20210318 12:26:10.198" level="INFO">Successfully initialized new page object and opened url: http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</msg>
+<status status="PASS" starttime="20210318 12:26:04.132" endtime="20210318 12:26:10.199"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:24.291" endtime="20210318 09:57:31.660"></status>
+<status status="PASS" starttime="20210318 12:26:03.508" endtime="20210318 12:26:10.199"></status>
 </kw>
 <kw name="Login With" library="auth">
 <arguments>
@@ -153,8 +153,8 @@ Returns a stable identifier for the created page.</doc>
 <arg>id=email</arg>
 <arg>${email_arg}</arg>
 </arguments>
-<msg timestamp="20210318 09:57:31.663" level="INFO">Fills the text 'teste1@gmail.com' in the given field.</msg>
-<status status="PASS" starttime="20210318 09:57:31.662" endtime="20210318 09:57:31.707"></status>
+<msg timestamp="20210318 12:26:10.201" level="INFO">Fills the text 'teste1@gmail.com' in the given field.</msg>
+<status status="PASS" starttime="20210318 12:26:10.200" endtime="20210318 12:26:10.248"></status>
 </kw>
 <kw name="Fill Text" library="Browser">
 <tags>
@@ -166,8 +166,8 @@ Returns a stable identifier for the created page.</doc>
 <arg>id=passwd</arg>
 <arg>${pass_arg}</arg>
 </arguments>
-<msg timestamp="20210318 09:57:31.707" level="INFO">Fills the text '54321' in the given field.</msg>
-<status status="PASS" starttime="20210318 09:57:31.707" endtime="20210318 09:57:31.742"></status>
+<msg timestamp="20210318 12:26:10.248" level="INFO">Fills the text '54321' in the given field.</msg>
+<status status="PASS" starttime="20210318 12:26:10.248" endtime="20210318 12:26:10.282"></status>
 </kw>
 <kw name="Click" library="Browser">
 <tags>
@@ -178,9 +178,9 @@ Returns a stable identifier for the created page.</doc>
 <arguments>
 <arg>id=SubmitLogin</arg>
 </arguments>
-<status status="PASS" starttime="20210318 09:57:31.742" endtime="20210318 09:57:34.286"></status>
+<status status="PASS" starttime="20210318 12:26:10.282" endtime="20210318 12:26:10.986"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:31.661" endtime="20210318 09:57:34.286"></status>
+<status status="PASS" starttime="20210318 12:26:10.200" endtime="20210318 12:26:10.986"></status>
 </kw>
 <kw name="Alert Should Be" library="auth">
 <arguments>
@@ -199,19 +199,19 @@ See the `Finding elements` section for details about the selectors.</doc>
 <arg>contains</arg>
 <arg>${expect_arg}</arg>
 </arguments>
-<status status="PASS" starttime="20210318 09:57:34.289" endtime="20210318 09:57:34.505"></status>
+<status status="PASS" starttime="20210318 12:26:10.988" endtime="20210318 12:26:11.183"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:34.288" endtime="20210318 09:57:34.505"></status>
+<status status="PASS" starttime="20210318 12:26:10.988" endtime="20210318 12:26:11.183"></status>
 </kw>
 <kw name="Take Screenshot" library="Browser" type="teardown">
 <tags>
 <tag>PageContent</tag>
 </tags>
 <doc>Takes a screenshot of the current window and saves it to ``path``. Saves it as a png.</doc>
-<msg timestamp="20210318 09:57:34.815" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-2.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210318 09:57:34.506" endtime="20210318 09:57:34.816"></status>
+<msg timestamp="20210318 12:26:11.474" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-2.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210318 12:26:11.184" endtime="20210318 12:26:11.474"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:24.277" endtime="20210318 09:57:34.816" critical="yes"></status>
+<status status="PASS" starttime="20210318 12:26:03.495" endtime="20210318 12:26:11.475" critical="yes"></status>
 </test>
 <test id="s1-t3" name="Login incorreto">
 <kw name="Open Login Page" library="auth">
@@ -226,9 +226,9 @@ See `Browser, Context and Page` for more information about Browser and related c
 <arg>${browser}</arg>
 <arg>${headless}</arg>
 </arguments>
-<msg timestamp="20210318 09:57:34.940" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0}</msg>
-<msg timestamp="20210318 09:57:35.659" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0}</msg>
-<status status="PASS" starttime="20210318 09:57:34.938" endtime="20210318 09:57:35.663"></status>
+<msg timestamp="20210318 12:26:11.580" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0}</msg>
+<msg timestamp="20210318 12:26:12.228" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0}</msg>
+<status status="PASS" starttime="20210318 12:26:11.579" endtime="20210318 12:26:12.229"></status>
 </kw>
 <kw name="New Page" library="Browser">
 <tags>
@@ -241,10 +241,10 @@ Returns a stable identifier for the created page.</doc>
 <arguments>
 <arg>http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</arg>
 </arguments>
-<msg timestamp="20210318 09:57:43.815" level="INFO">Successfully initialized new page object and opened url: http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</msg>
-<status status="PASS" starttime="20210318 09:57:35.663" endtime="20210318 09:57:43.816"></status>
+<msg timestamp="20210318 12:26:21.170" level="INFO">Successfully initialized new page object and opened url: http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</msg>
+<status status="PASS" starttime="20210318 12:26:12.229" endtime="20210318 12:26:21.170"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:34.935" endtime="20210318 09:57:43.816"></status>
+<status status="PASS" starttime="20210318 12:26:11.578" endtime="20210318 12:26:21.170"></status>
 </kw>
 <kw name="Login With" library="auth">
 <arguments>
@@ -261,8 +261,8 @@ Returns a stable identifier for the created page.</doc>
 <arg>id=email</arg>
 <arg>${email_arg}</arg>
 </arguments>
-<msg timestamp="20210318 09:57:43.817" level="INFO">Fills the text 'teste@gmail.com' in the given field.</msg>
-<status status="PASS" starttime="20210318 09:57:43.817" endtime="20210318 09:57:43.867"></status>
+<msg timestamp="20210318 12:26:21.172" level="INFO">Fills the text 'teste@gmail.com' in the given field.</msg>
+<status status="PASS" starttime="20210318 12:26:21.171" endtime="20210318 12:26:21.227"></status>
 </kw>
 <kw name="Fill Text" library="Browser">
 <tags>
@@ -274,8 +274,8 @@ Returns a stable identifier for the created page.</doc>
 <arg>id=passwd</arg>
 <arg>${pass_arg}</arg>
 </arguments>
-<msg timestamp="20210318 09:57:43.868" level="INFO">Fills the text '12345' in the given field.</msg>
-<status status="PASS" starttime="20210318 09:57:43.868" endtime="20210318 09:57:43.902"></status>
+<msg timestamp="20210318 12:26:21.228" level="INFO">Fills the text '12345' in the given field.</msg>
+<status status="PASS" starttime="20210318 12:26:21.227" endtime="20210318 12:26:21.267"></status>
 </kw>
 <kw name="Click" library="Browser">
 <tags>
@@ -286,9 +286,9 @@ Returns a stable identifier for the created page.</doc>
 <arguments>
 <arg>id=SubmitLogin</arg>
 </arguments>
-<status status="PASS" starttime="20210318 09:57:43.902" endtime="20210318 09:57:45.989"></status>
+<status status="PASS" starttime="20210318 12:26:21.267" endtime="20210318 12:26:26.763"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:43.817" endtime="20210318 09:57:45.989"></status>
+<status status="PASS" starttime="20210318 12:26:21.171" endtime="20210318 12:26:26.764"></status>
 </kw>
 <kw name="Alert Should Be" library="auth">
 <arguments>
@@ -307,19 +307,19 @@ See the `Finding elements` section for details about the selectors.</doc>
 <arg>contains</arg>
 <arg>${expect_arg}</arg>
 </arguments>
-<status status="PASS" starttime="20210318 09:57:45.990" endtime="20210318 09:57:46.207"></status>
+<status status="PASS" starttime="20210318 12:26:26.766" endtime="20210318 12:26:26.941"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:45.989" endtime="20210318 09:57:46.207"></status>
+<status status="PASS" starttime="20210318 12:26:26.765" endtime="20210318 12:26:26.941"></status>
 </kw>
 <kw name="Take Screenshot" library="Browser" type="teardown">
 <tags>
 <tag>PageContent</tag>
 </tags>
 <doc>Takes a screenshot of the current window and saves it to ``path``. Saves it as a png.</doc>
-<msg timestamp="20210318 09:57:46.517" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-3.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210318 09:57:46.208" endtime="20210318 09:57:46.517"></status>
+<msg timestamp="20210318 12:26:27.250" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-3.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210318 12:26:26.941" endtime="20210318 12:26:27.251"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:34.922" endtime="20210318 09:57:46.518" critical="yes"></status>
+<status status="PASS" starttime="20210318 12:26:11.567" endtime="20210318 12:26:27.252" critical="yes"></status>
 </test>
 <test id="s1-t4" name="Login em branco">
 <kw name="Open Login Page" library="auth">
@@ -334,9 +334,9 @@ See `Browser, Context and Page` for more information about Browser and related c
 <arg>${browser}</arg>
 <arg>${headless}</arg>
 </arguments>
-<msg timestamp="20210318 09:57:46.634" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0}</msg>
-<msg timestamp="20210318 09:57:48.669" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0}</msg>
-<status status="PASS" starttime="20210318 09:57:46.632" endtime="20210318 09:57:48.671"></status>
+<msg timestamp="20210318 12:26:27.343" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0}</msg>
+<msg timestamp="20210318 12:26:29.265" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0}</msg>
+<status status="PASS" starttime="20210318 12:26:27.340" endtime="20210318 12:26:29.267"></status>
 </kw>
 <kw name="New Page" library="Browser">
 <tags>
@@ -349,10 +349,10 @@ Returns a stable identifier for the created page.</doc>
 <arguments>
 <arg>http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</arg>
 </arguments>
-<msg timestamp="20210318 09:57:56.564" level="INFO">Successfully initialized new page object and opened url: http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</msg>
-<status status="PASS" starttime="20210318 09:57:48.671" endtime="20210318 09:57:56.565"></status>
+<msg timestamp="20210318 12:26:37.816" level="INFO">Successfully initialized new page object and opened url: http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</msg>
+<status status="PASS" starttime="20210318 12:26:29.268" endtime="20210318 12:26:37.816"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:46.630" endtime="20210318 09:57:56.565"></status>
+<status status="PASS" starttime="20210318 12:26:27.337" endtime="20210318 12:26:37.816"></status>
 </kw>
 <kw name="Login With" library="auth">
 <arguments>
@@ -369,8 +369,8 @@ Returns a stable identifier for the created page.</doc>
 <arg>id=email</arg>
 <arg>${email_arg}</arg>
 </arguments>
-<msg timestamp="20210318 09:57:56.567" level="INFO">Fills the text '' in the given field.</msg>
-<status status="PASS" starttime="20210318 09:57:56.567" endtime="20210318 09:57:56.614"></status>
+<msg timestamp="20210318 12:26:37.818" level="INFO">Fills the text '' in the given field.</msg>
+<status status="PASS" starttime="20210318 12:26:37.817" endtime="20210318 12:26:37.859"></status>
 </kw>
 <kw name="Fill Text" library="Browser">
 <tags>
@@ -382,8 +382,8 @@ Returns a stable identifier for the created page.</doc>
 <arg>id=passwd</arg>
 <arg>${pass_arg}</arg>
 </arguments>
-<msg timestamp="20210318 09:57:56.615" level="INFO">Fills the text '12345' in the given field.</msg>
-<status status="PASS" starttime="20210318 09:57:56.614" endtime="20210318 09:57:56.641"></status>
+<msg timestamp="20210318 12:26:37.859" level="INFO">Fills the text '12345' in the given field.</msg>
+<status status="PASS" starttime="20210318 12:26:37.859" endtime="20210318 12:26:37.888"></status>
 </kw>
 <kw name="Click" library="Browser">
 <tags>
@@ -394,9 +394,9 @@ Returns a stable identifier for the created page.</doc>
 <arguments>
 <arg>id=SubmitLogin</arg>
 </arguments>
-<status status="PASS" starttime="20210318 09:57:56.641" endtime="20210318 09:57:59.139"></status>
+<status status="PASS" starttime="20210318 12:26:37.888" endtime="20210318 12:26:39.653"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:56.566" endtime="20210318 09:57:59.140"></status>
+<status status="PASS" starttime="20210318 12:26:37.817" endtime="20210318 12:26:39.653"></status>
 </kw>
 <kw name="Alert Should Be" library="auth">
 <arguments>
@@ -415,19 +415,19 @@ See the `Finding elements` section for details about the selectors.</doc>
 <arg>contains</arg>
 <arg>${expect_arg}</arg>
 </arguments>
-<status status="PASS" starttime="20210318 09:57:59.141" endtime="20210318 09:57:59.340"></status>
+<status status="PASS" starttime="20210318 12:26:39.654" endtime="20210318 12:26:39.845"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:59.141" endtime="20210318 09:57:59.341"></status>
+<status status="PASS" starttime="20210318 12:26:39.653" endtime="20210318 12:26:39.846"></status>
 </kw>
 <kw name="Take Screenshot" library="Browser" type="teardown">
 <tags>
 <tag>PageContent</tag>
 </tags>
 <doc>Takes a screenshot of the current window and saves it to ``path``. Saves it as a png.</doc>
-<msg timestamp="20210318 09:57:59.662" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-4.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210318 09:57:59.341" endtime="20210318 09:57:59.662"></status>
+<msg timestamp="20210318 12:26:40.161" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-4.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210318 12:26:39.846" endtime="20210318 12:26:40.161"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:46.619" endtime="20210318 09:57:59.662" critical="yes"></status>
+<status status="PASS" starttime="20210318 12:26:27.325" endtime="20210318 12:26:40.161" critical="yes"></status>
 </test>
 <test id="s1-t5" name="Senha em branco">
 <kw name="Open Login Page" library="auth">
@@ -442,9 +442,9 @@ See `Browser, Context and Page` for more information about Browser and related c
 <arg>${browser}</arg>
 <arg>${headless}</arg>
 </arguments>
-<msg timestamp="20210318 09:57:59.793" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0}</msg>
-<msg timestamp="20210318 09:58:00.583" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0}</msg>
-<status status="PASS" starttime="20210318 09:57:59.791" endtime="20210318 09:58:00.584"></status>
+<msg timestamp="20210318 12:26:40.246" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0}</msg>
+<msg timestamp="20210318 12:26:40.956" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0}</msg>
+<status status="PASS" starttime="20210318 12:26:40.245" endtime="20210318 12:26:40.957"></status>
 </kw>
 <kw name="New Page" library="Browser">
 <tags>
@@ -457,10 +457,10 @@ Returns a stable identifier for the created page.</doc>
 <arguments>
 <arg>http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</arg>
 </arguments>
-<msg timestamp="20210318 09:58:07.766" level="INFO">Successfully initialized new page object and opened url: http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</msg>
-<status status="PASS" starttime="20210318 09:58:00.584" endtime="20210318 09:58:07.766"></status>
+<msg timestamp="20210318 12:26:47.347" level="INFO">Successfully initialized new page object and opened url: http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</msg>
+<status status="PASS" starttime="20210318 12:26:40.958" endtime="20210318 12:26:47.347"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:59.791" endtime="20210318 09:58:07.766"></status>
+<status status="PASS" starttime="20210318 12:26:40.245" endtime="20210318 12:26:47.347"></status>
 </kw>
 <kw name="Login With" library="auth">
 <arguments>
@@ -477,8 +477,8 @@ Returns a stable identifier for the created page.</doc>
 <arg>id=email</arg>
 <arg>${email_arg}</arg>
 </arguments>
-<msg timestamp="20210318 09:58:07.768" level="INFO">Fills the text 'teste1@gmail.com' in the given field.</msg>
-<status status="PASS" starttime="20210318 09:58:07.768" endtime="20210318 09:58:07.816"></status>
+<msg timestamp="20210318 12:26:47.349" level="INFO">Fills the text 'teste1@gmail.com' in the given field.</msg>
+<status status="PASS" starttime="20210318 12:26:47.349" endtime="20210318 12:26:47.398"></status>
 </kw>
 <kw name="Fill Text" library="Browser">
 <tags>
@@ -490,8 +490,8 @@ Returns a stable identifier for the created page.</doc>
 <arg>id=passwd</arg>
 <arg>${pass_arg}</arg>
 </arguments>
-<msg timestamp="20210318 09:58:07.816" level="INFO">Fills the text '' in the given field.</msg>
-<status status="PASS" starttime="20210318 09:58:07.816" endtime="20210318 09:58:07.852"></status>
+<msg timestamp="20210318 12:26:47.398" level="INFO">Fills the text '' in the given field.</msg>
+<status status="PASS" starttime="20210318 12:26:47.398" endtime="20210318 12:26:47.431"></status>
 </kw>
 <kw name="Click" library="Browser">
 <tags>
@@ -502,9 +502,9 @@ Returns a stable identifier for the created page.</doc>
 <arguments>
 <arg>id=SubmitLogin</arg>
 </arguments>
-<status status="PASS" starttime="20210318 09:58:07.852" endtime="20210318 09:58:08.696"></status>
+<status status="PASS" starttime="20210318 12:26:47.431" endtime="20210318 12:26:48.139"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:58:07.767" endtime="20210318 09:58:08.697"></status>
+<status status="PASS" starttime="20210318 12:26:47.348" endtime="20210318 12:26:48.139"></status>
 </kw>
 <kw name="Alert Should Be" library="auth">
 <arguments>
@@ -523,19 +523,19 @@ See the `Finding elements` section for details about the selectors.</doc>
 <arg>contains</arg>
 <arg>${expect_arg}</arg>
 </arguments>
-<status status="PASS" starttime="20210318 09:58:08.698" endtime="20210318 09:58:08.875"></status>
+<status status="PASS" starttime="20210318 12:26:48.141" endtime="20210318 12:26:48.338"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:58:08.698" endtime="20210318 09:58:08.875"></status>
+<status status="PASS" starttime="20210318 12:26:48.140" endtime="20210318 12:26:48.338"></status>
 </kw>
 <kw name="Take Screenshot" library="Browser" type="teardown">
 <tags>
 <tag>PageContent</tag>
 </tags>
 <doc>Takes a screenshot of the current window and saves it to ``path``. Saves it as a png.</doc>
-<msg timestamp="20210318 09:58:09.190" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-5.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210318 09:58:08.876" endtime="20210318 09:58:09.190"></status>
+<msg timestamp="20210318 12:26:48.691" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-5.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210318 12:26:48.339" endtime="20210318 12:26:48.691"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:57:59.777" endtime="20210318 09:58:09.191" critical="yes"></status>
+<status status="PASS" starttime="20210318 12:26:40.240" endtime="20210318 12:26:48.691" critical="yes"></status>
 </test>
 <test id="s1-t6" name="Mensagem errada Senha incorreta">
 <kw name="Open Login Page" library="auth">
@@ -550,9 +550,9 @@ See `Browser, Context and Page` for more information about Browser and related c
 <arg>${browser}</arg>
 <arg>${headless}</arg>
 </arguments>
-<msg timestamp="20210318 09:58:09.297" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0}</msg>
-<msg timestamp="20210318 09:58:09.989" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0}</msg>
-<status status="PASS" starttime="20210318 09:58:09.294" endtime="20210318 09:58:09.993"></status>
+<msg timestamp="20210318 12:26:48.795" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0}</msg>
+<msg timestamp="20210318 12:26:49.464" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0}</msg>
+<status status="PASS" starttime="20210318 12:26:48.795" endtime="20210318 12:26:49.465"></status>
 </kw>
 <kw name="New Page" library="Browser">
 <tags>
@@ -565,10 +565,10 @@ Returns a stable identifier for the created page.</doc>
 <arguments>
 <arg>http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</arg>
 </arguments>
-<msg timestamp="20210318 09:58:15.534" level="INFO">Successfully initialized new page object and opened url: http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</msg>
-<status status="PASS" starttime="20210318 09:58:09.993" endtime="20210318 09:58:15.535"></status>
+<msg timestamp="20210318 12:26:54.703" level="INFO">Successfully initialized new page object and opened url: http://automationpractice.com/index.php?controller=authentication&amp;back=my-account</msg>
+<status status="PASS" starttime="20210318 12:26:49.466" endtime="20210318 12:26:54.703"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:58:09.293" endtime="20210318 09:58:15.535"></status>
+<status status="PASS" starttime="20210318 12:26:48.794" endtime="20210318 12:26:54.703"></status>
 </kw>
 <kw name="Login With" library="auth">
 <arguments>
@@ -585,8 +585,8 @@ Returns a stable identifier for the created page.</doc>
 <arg>id=email</arg>
 <arg>${email_arg}</arg>
 </arguments>
-<msg timestamp="20210318 09:58:15.537" level="INFO">Fills the text 'teste1@gmail.com' in the given field.</msg>
-<status status="PASS" starttime="20210318 09:58:15.537" endtime="20210318 09:58:15.580"></status>
+<msg timestamp="20210318 12:26:54.704" level="INFO">Fills the text 'teste1@gmail.com' in the given field.</msg>
+<status status="PASS" starttime="20210318 12:26:54.704" endtime="20210318 12:26:54.741"></status>
 </kw>
 <kw name="Fill Text" library="Browser">
 <tags>
@@ -598,8 +598,8 @@ Returns a stable identifier for the created page.</doc>
 <arg>id=passwd</arg>
 <arg>${pass_arg}</arg>
 </arguments>
-<msg timestamp="20210318 09:58:15.581" level="INFO">Fills the text '54321' in the given field.</msg>
-<status status="PASS" starttime="20210318 09:58:15.581" endtime="20210318 09:58:15.623"></status>
+<msg timestamp="20210318 12:26:54.742" level="INFO">Fills the text '54321' in the given field.</msg>
+<status status="PASS" starttime="20210318 12:26:54.741" endtime="20210318 12:26:54.776"></status>
 </kw>
 <kw name="Click" library="Browser">
 <tags>
@@ -610,9 +610,9 @@ Returns a stable identifier for the created page.</doc>
 <arguments>
 <arg>id=SubmitLogin</arg>
 </arguments>
-<status status="PASS" starttime="20210318 09:58:15.623" endtime="20210318 09:58:16.272"></status>
+<status status="PASS" starttime="20210318 12:26:54.777" endtime="20210318 12:26:55.863"></status>
 </kw>
-<status status="PASS" starttime="20210318 09:58:15.536" endtime="20210318 09:58:16.272"></status>
+<status status="PASS" starttime="20210318 12:26:54.703" endtime="20210318 12:26:55.864"></status>
 </kw>
 <kw name="Alert Should Be" library="auth">
 <arguments>
@@ -631,28 +631,28 @@ See the `Finding elements` section for details about the selectors.</doc>
 <arg>contains</arg>
 <arg>${expect_arg}</arg>
 </arguments>
-<msg timestamp="20210318 09:58:17.782" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Mensagem_errada_Senha_incorreta_FAILURE_SCREENSHOT_1.png"&gt;&lt;img src="Mensagem_errada_Senha_incorreta_FAILURE_SCREENSHOT_1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg timestamp="20210318 09:58:17.792" level="FAIL">Text 'There is 1 error
+<msg timestamp="20210318 12:26:57.356" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Mensagem_errada_Senha_incorreta_FAILURE_SCREENSHOT_1.png"&gt;&lt;img src="Mensagem_errada_Senha_incorreta_FAILURE_SCREENSHOT_1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20210318 12:26:57.359" level="FAIL">Text 'There is 1 error
 
 Authentication failed.' (str) should contain 'Senha Incorreta.' (str)</msg>
-<status status="FAIL" starttime="20210318 09:58:16.273" endtime="20210318 09:58:17.792"></status>
+<status status="FAIL" starttime="20210318 12:26:55.866" endtime="20210318 12:26:57.359"></status>
 </kw>
-<status status="FAIL" starttime="20210318 09:58:16.273" endtime="20210318 09:58:17.792"></status>
+<status status="FAIL" starttime="20210318 12:26:55.865" endtime="20210318 12:26:57.359"></status>
 </kw>
 <kw name="Take Screenshot" library="Browser" type="teardown">
 <tags>
 <tag>PageContent</tag>
 </tags>
 <doc>Takes a screenshot of the current window and saves it to ``path``. Saves it as a png.</doc>
-<msg timestamp="20210318 09:58:18.086" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-6.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-6.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210318 09:58:17.793" endtime="20210318 09:58:18.086"></status>
+<msg timestamp="20210318 12:26:57.662" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-6.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-6.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210318 12:26:57.360" endtime="20210318 12:26:57.662"></status>
 </kw>
-<status status="FAIL" starttime="20210318 09:58:09.285" endtime="20210318 09:58:18.087" critical="yes">Text 'There is 1 error
+<status status="FAIL" starttime="20210318 12:26:48.782" endtime="20210318 12:26:57.663" critical="yes">Text 'There is 1 error
 
 Authentication failed.' (str) should contain 'Senha Incorreta.' (str)</status>
 </test>
 <doc>Testes da página login</doc>
-<status status="FAIL" starttime="20210318 09:57:13.943" endtime="20210318 09:58:18.188"></status>
+<status status="FAIL" starttime="20210318 12:25:54.388" endtime="20210318 12:26:57.919"></status>
 </suite>
 <statistics>
 <total>

@@ -2,7 +2,7 @@
 Documentation   Testes da página login
 
 Library     Browser
-Library     SeleniumLibrary
+
 
 Resource    ../resources/base.robot
 
