@@ -1,0 +1,95 @@
+{"level":30,"time":"2021-03-18T12:57:14.834Z","pid":33476,"hostname":"GMEPN002953","msg":"Listening on 58036"}
+{"level":30,"time":"2021-03-18T12:57:16.117Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:57:16.385Z","pid":33476,"hostname":"GMEPN002953","msg":"Video path: undefined"}
+{"level":30,"time":"2021-03-18T12:57:16.385Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:57:24.185Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:57:24.185Z","pid":33476,"hostname":"GMEPN002953","msg":"Changing current active page"}
+{"level":30,"time":"2021-03-18T12:57:24.185Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:57:24.214Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:57:24.214Z","pid":33476,"hostname":"GMEPN002953","msg":"Changing current active page"}
+{"level":30,"time":"2021-03-18T12:57:24.214Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:57:24.994Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:57:25.295Z","pid":33476,"hostname":"GMEPN002953","msg":"Video path: undefined"}
+{"level":30,"time":"2021-03-18T12:57:25.295Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:57:34.503Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:57:34.824Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:57:34.824Z","pid":33476,"hostname":"GMEPN002953","msg":"Changing current active page"}
+{"level":30,"time":"2021-03-18T12:57:34.824Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:57:34.857Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:57:34.857Z","pid":33476,"hostname":"GMEPN002953","msg":"Changing current active page"}
+{"level":30,"time":"2021-03-18T12:57:34.857Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:57:35.697Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:57:36.034Z","pid":33476,"hostname":"GMEPN002953","msg":"Video path: undefined"}
+{"level":30,"time":"2021-03-18T12:57:36.034Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:57:46.205Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:57:46.524Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:57:46.524Z","pid":33476,"hostname":"GMEPN002953","msg":"Changing current active page"}
+{"level":30,"time":"2021-03-18T12:57:46.524Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:57:46.553Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:57:46.553Z","pid":33476,"hostname":"GMEPN002953","msg":"Changing current active page"}
+{"level":30,"time":"2021-03-18T12:57:46.553Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:57:48.716Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:57:48.983Z","pid":33476,"hostname":"GMEPN002953","msg":"Video path: undefined"}
+{"level":30,"time":"2021-03-18T12:57:48.983Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:57:59.338Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAn email address required."}
+{"level":30,"time":"2021-03-18T12:57:59.670Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:57:59.670Z","pid":33476,"hostname":"GMEPN002953","msg":"Changing current active page"}
+{"level":30,"time":"2021-03-18T12:57:59.670Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:57:59.704Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:57:59.704Z","pid":33476,"hostname":"GMEPN002953","msg":"Changing current active page"}
+{"level":30,"time":"2021-03-18T12:57:59.704Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:58:00.607Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:58:00.999Z","pid":33476,"hostname":"GMEPN002953","msg":"Video path: undefined"}
+{"level":30,"time":"2021-03-18T12:58:01.000Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:58:08.873Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nPassword is required."}
+{"level":30,"time":"2021-03-18T12:58:09.200Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:58:09.200Z","pid":33476,"hostname":"GMEPN002953","msg":"Changing current active page"}
+{"level":30,"time":"2021-03-18T12:58:09.200Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:58:09.225Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:58:09.226Z","pid":33476,"hostname":"GMEPN002953","msg":"Changing current active page"}
+{"level":30,"time":"2021-03-18T12:58:09.226Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:58:10.039Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:58:10.340Z","pid":33476,"hostname":"GMEPN002953","msg":"Video path: undefined"}
+{"level":30,"time":"2021-03-18T12:58:10.340Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:58:16.468Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.501Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.531Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.556Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.585Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.657Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.684Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.710Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.742Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.771Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.796Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.821Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.851Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.875Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.901Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.927Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.953Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:16.981Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.006Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.036Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.062Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.091Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.121Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.151Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.180Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.204Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.231Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.258Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.287Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.312Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.339Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.368Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.393Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.421Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.454Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:17.490Z","pid":33476,"hostname":"GMEPN002953","msg":"Retrieved text for element css=.alert.alert-danger containing There is 1 error\n\nAuthentication failed."}
+{"level":30,"time":"2021-03-18T12:58:18.097Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:58:18.097Z","pid":33476,"hostname":"GMEPN002953","msg":"Changing current active page"}
+{"level":30,"time":"2021-03-18T12:58:18.097Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
+{"level":30,"time":"2021-03-18T12:58:18.125Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active context"}
+{"level":30,"time":"2021-03-18T12:58:18.125Z","pid":33476,"hostname":"GMEPN002953","msg":"Changing current active page"}
+{"level":30,"time":"2021-03-18T12:58:18.125Z","pid":33476,"hostname":"GMEPN002953","msg":"Changed active page"}
